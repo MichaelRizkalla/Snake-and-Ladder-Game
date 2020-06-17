@@ -1,0 +1,38 @@
+﻿  DrawGrid.c
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(24,15): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(24,18): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(25,15): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(25,22): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(26,19): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(26,26): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(27,19): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(27,22): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(61,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(61,24): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(61,31): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(63,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(63,24): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(63,31): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(65,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(65,24): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(65,31): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(67,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(67,24): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(67,31): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(83,15): warning C4244: 'function': conversion from 'double' to 'GLbyte', possible loss of data
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(83,20): warning C4244: 'function': conversion from 'double' to 'GLbyte', possible loss of data
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(83,25): warning C4244: 'function': conversion from 'double' to 'GLbyte', possible loss of data
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(86,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(94,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(102,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(110,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(118,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(126,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(134,26): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(142,26): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(150,26): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(158,26): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(166,26): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(174,26): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Snake and Ladder Game\DrawGrid.c(78,1): warning C4133: 'initializing': incompatible types - from 'int *' to 'double *'
+  Snake and Ladder Game.vcxproj -> C:\Users\RIM TONY\Desktop\Snake and Ladder Game\Debug\Snake and Ladder Game.exe
