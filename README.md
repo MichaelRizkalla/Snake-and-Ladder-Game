@@ -1,4 +1,4 @@
-£Snake and Ladder Game OpenGL with C Language
+#Snake and Ladder Game OpenGL with C Language
 
 <p>The game Snakes and Ladders has enthralled generations of children, and gone through a few name changes along the way. 
 The object of the game is to navigate one's game piece, according to die rolls, from the start (bottom square) to the finish (top square),
