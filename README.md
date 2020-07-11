@@ -8,3 +8,5 @@ taking advantage of hardware acceleration when available. Modern graphics proces
 the APIs .OpenGL is a specification implemented in the C language, though it can use other programming languages.
 A screenshot of the output is projected<strong>“done.png” </strong> and other screenshot I was trying to do the same  <strong>" snakes &ladders.jpg"</strong></p>
 
+# How to Compile?
+you will need an IDE with standard libraries and Free Glut and Glew (OpenGL Libraries) < https://www.youtube.com/watch?v=Kqv6MPpemBc>
