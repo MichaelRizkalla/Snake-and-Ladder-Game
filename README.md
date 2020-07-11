@@ -9,4 +9,4 @@ the APIs .OpenGL is a specification implemented in the C language, though it can
 A screenshot of the output is projected<strong>“done.png” </strong> and other screenshot I was trying to do the same  <strong>" snakes &ladders.jpg"</strong></p>
 
 # How to Compile?
-you will need an IDE with standard libraries and Free Glut and Glew (OpenGL Libraries) < https://www.youtube.com/watch?v=Kqv6MPpemBc>
+you will need an IDE with standard libraries and Free Glut and Glew (OpenGL Libraries) <https://www.youtube.com/watch?v=Kqv6MPpemBc>
