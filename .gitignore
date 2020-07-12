@@ -15,6 +15,7 @@
 # Precompiled Headers
 *.gch
 *.pch
+*.ipch
 
 # Libraries
 *.lib
@@ -23,10 +24,6 @@
 *.lo
 
 # Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
 
 # Executables
 *.exe
@@ -41,6 +38,11 @@
 *.su
 *.idb
 *.pdb
+*.db
+*.tlog
+*.lastbuildstate
+*.log
+*.opendb
 
 # Kernel Module Compile Results
 *.mod*
@@ -50,3 +52,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Archives
+*.tar.gz
+*.zip

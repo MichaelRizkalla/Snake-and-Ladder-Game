@@ -13,45 +13,75 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\GL">
+      <UniqueIdentifier>{97f30aae-d95e-4504-88ea-e24ac40d8dbe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
+    <ClCompile Include="Source\BulidWindow.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FunctionsDeclartions.c">
+    <ClCompile Include="Source\Dice.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DrawLadders.c">
+    <ClCompile Include="Source\DrawGrid.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DrawGrid.c">
+    <ClCompile Include="Source\DrawLadders.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DrawSnakes.c">
+    <ClCompile Include="Source\DrawSnakes.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BulidWindow.c">
+    <ClCompile Include="Source\main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PlayerBlocks.c">
+    <ClCompile Include="Source\MouseInput.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Players.c">
+    <ClCompile Include="Source\PlayerBlocks.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Dice.c">
+    <ClCompile Include="Source\Players.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MouseInput.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ViewWinner.c">
+    <ClCompile Include="Source\ViewWinner.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="Header\SnakeLadder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Declartions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GL\eglew.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GL\glew.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GL\glxew.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GL\wglew.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GL\freeglut.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GL\freeglut_ext.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GL\freeglut_std.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GL\freeglut_ucall.h">
+      <Filter>Header Files\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GL\glut.h">
+      <Filter>Header Files\GL</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

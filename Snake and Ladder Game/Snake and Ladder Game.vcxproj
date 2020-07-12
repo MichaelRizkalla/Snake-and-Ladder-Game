@@ -19,20 +19,29 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BulidWindow.c" />
-    <ClCompile Include="Dice.c" />
-    <ClCompile Include="DrawGrid.c" />
-    <ClCompile Include="DrawLadders.c" />
-    <ClCompile Include="MouseInput.c" />
-    <ClCompile Include="PlayerBlocks.c" />
-    <ClCompile Include="DrawSnakes.c" />
-    <ClCompile Include="FunctionsDeclartions.c" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="Players.c" />
-    <ClCompile Include="ViewWinner.c" />
+    <ClCompile Include="Source\BulidWindow.c" />
+    <ClCompile Include="Source\Dice.c" />
+    <ClCompile Include="Source\DrawGrid.c" />
+    <ClCompile Include="Source\DrawLadders.c" />
+    <ClCompile Include="Source\DrawSnakes.c" />
+    <ClCompile Include="Source\main.c" />
+    <ClCompile Include="Source\MouseInput.c" />
+    <ClCompile Include="Source\PlayerBlocks.c" />
+    <ClCompile Include="Source\Players.c" />
+    <ClCompile Include="Source\ViewWinner.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
+    <ClInclude Include="Header\Declartions.h" />
+    <ClInclude Include="Header\GL\eglew.h" />
+    <ClInclude Include="Header\GL\freeglut.h" />
+    <ClInclude Include="Header\GL\freeglut_ext.h" />
+    <ClInclude Include="Header\GL\freeglut_std.h" />
+    <ClInclude Include="Header\GL\freeglut_ucall.h" />
+    <ClInclude Include="Header\GL\glew.h" />
+    <ClInclude Include="Header\GL\glut.h" />
+    <ClInclude Include="Header\GL\glxew.h" />
+    <ClInclude Include="Header\GL\wglew.h" />
+    <ClInclude Include="Header\SnakeLadder.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -90,6 +99,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\Github\Snake-and-Ladder-Game\Snake and Ladder Game\Header;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Github\Snake-and-Ladder-Game\Snake and Ladder Game\Dependencies\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -123,6 +134,9 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PostBuildEvent>
+      <Command>copy "Dependencies\*.dll" ..\$(Platform)\$(Configuration)\</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
